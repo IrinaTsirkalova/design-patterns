@@ -35,7 +35,7 @@ public class Bot {
 	public void checkUserMessage(User user, String message) {
 		String forbiddenWord = "cat";
 		if(message.toLowerCase().contains(forbiddenWord)) {
-			String removalMessage = user.username + " sent cat whitch is a forbidden word for this chat. This user was removed!";
+			String removalMessage = user.username + " sent cat which is a forbidden word for this chat. This user was removed from the chat!";
 			users.remove(user);
 			for(User u : users) {
 				u.receiveMessage(removalMessage);

@@ -8,7 +8,8 @@ public class ChatRoomMain {
 	User user1 = new ChatRoomUser(chat, "Ivan");
 	User user2 = new ChatRoomUser(chat, "Zoya");
 	User user3 = new ChatRoomUser(chat,"Nikolai");
-	user2.sendMessage("Hi, guys addBot");
+	
+	user3.sendMessage("Hi, friends addBot");
 	
 	user1.sendMessage("There is a Cat");
 	user2.sendMessage("Ivan!!! Noooo...");
